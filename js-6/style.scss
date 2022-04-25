@@ -1,0 +1,44 @@
+.content {
+    margin: 0px auto;
+    width: 600px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #FFC107;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+
+    th,
+    td {
+        padding: 15px;
+        font-family: calibri;
+    }
+
+    td {
+        background: #392c6e;
+        color: white;
+    }
+
+    th {
+        text-transform: uppercase;
+        background: #e6ae30;
+    }
+
+    th:nth-child(odd) {
+        background: #FFC107;
+    }
+}
+
+.input-wrapper {
+    width: 550px;
+    margin: 2rem 0;
+}
+
+.input {
+    display: inline-block;
+}
